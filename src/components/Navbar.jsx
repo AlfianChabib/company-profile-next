@@ -25,7 +25,7 @@ export default function Navbar() {
     requestAnimationFrame(animation);
   };
   return (
-    <nav className="flex w-full h-nav justify-between items-center bg-light px-4">
+    <nav className="container flex w-full h-nav justify-between items-center bg-light px-4">
       <Link href="/">
         <Image src={logo} alt="logo" className="w-max" />
       </Link>

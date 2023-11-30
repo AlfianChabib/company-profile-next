@@ -1,14 +1,15 @@
 import Button from "@/components/Button";
 import HeroSwiper from "@/components/HeroSwiper";
-import Navbar from "@/components/Navbar";
 import TextSlider from "@/components/TextSlider";
 import Link from "next/link";
 
 export default function Home() {
   return (
     <main className="container">
-      <Navbar />
-      <section id="home" className="flex relative w-full justify-center">
+      <section
+        id="home"
+        className="flex relative w-full h-[700px] justify-center"
+      >
         {/* swiper */}
         <div className="flex justify-center absolute w-full h-full -z-0">
           <HeroSwiper />

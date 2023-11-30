@@ -15,7 +15,7 @@ export default function Button({ text, width, height, theme }) {
 
   return (
     <div
-      className={`button border font-semibold transition-all ${
+      className={`button cursor-pointer border font-semibold transition-all ${
         isDark
           ? "bg-dark text-light border-dark hover:bg-light"
           : "bg-light text-dark border-light hover:bg-ultraDark"
