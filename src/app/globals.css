@@ -14,12 +14,25 @@
   width: 0px;
 }
 
+.sticky-cursor {
+  width: 500px;
+  height: 500px;
+  background: #6df901;
+  border-radius: 50%;
+  position: absolute;
+  /* z-index: -1; */
+}
+
 html {
   scroll-behavior: smooth;
 }
 
 body {
   @apply bg-light text-dark;
+}
+
+main {
+  @apply bg-light bg-transparent backdrop-blur-[150px] z-10;
 }
 
 .hero-img {

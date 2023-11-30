@@ -1,10 +1,12 @@
 import Button from "@/components/Button";
 import Footer from "@/components/Footer";
 import Heading from "@/components/Heading";
+import Navbar from "@/components/Navbar";
 
 export default function page() {
   return (
     <main className="container">
+      <Navbar />
       <Heading text="Contact" />
       <section className="flex relative w-full h-[500px] items-center px-20 gap-10 justify-center border-b-2 border-dark">
         <div className="flex flex-col flex-1 gap-6 text-6xl font-black">
