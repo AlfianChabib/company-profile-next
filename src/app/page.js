@@ -1,4 +1,5 @@
 import Culture from "@/components/Culture";
+import Footer from "@/components/Footer";
 import HeroSwiper from "@/components/HeroSwiper";
 import History from "@/components/History";
 import Navbar from "@/components/Navbar";
@@ -43,6 +44,8 @@ export default function Home() {
       <TeamsHome />
       {/* Culture */}
       <Culture />
+      {/* Footer */}
+      <Footer />
     </main>
   );
 }
