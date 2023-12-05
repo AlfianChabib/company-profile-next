@@ -1,6 +1,6 @@
 "use client";
 
-import gsap from "gsap";
+import { gsap } from "gsap";
 import { useEffect, useRef } from "react";
 
 export default function TextSlider() {
@@ -11,7 +11,8 @@ export default function TextSlider() {
 
   useEffect(() => {
     requestAnimationFrame(animation);
-  });
+  }, []);
+
   const animation = () => {
     if (xPercent < -100) {
       xPercent = 0;

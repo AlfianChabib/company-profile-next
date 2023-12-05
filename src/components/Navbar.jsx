@@ -4,7 +4,8 @@ import { useEffect, useRef } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import logo from "../../public/images/logo-black.svg";
-import gsap from "gsap";
+// import gsap from "gsap";
+import { gsap } from "gsap";
 
 export default function Navbar() {
   const firstText = useRef(null);
@@ -14,7 +15,8 @@ export default function Navbar() {
 
   useEffect(() => {
     requestAnimationFrame(animation);
-  });
+  }, []);
+
   const animation = () => {
     if (xPercent < -100) {
       xPercent = 0;
@@ -24,8 +26,9 @@ export default function Navbar() {
     xPercent += 0.25 * direction;
     requestAnimationFrame(animation);
   };
+
   return (
-    <nav className="container flex w-full h-nav justify-between items-center bg-lightl">
+    <nav className="container flex w-full h-nav justify-between items-center bg-light px-6">
       <Link href="/">
         <Image src={logo} alt="logo" className="w-max" />
       </Link>
@@ -35,7 +38,7 @@ export default function Navbar() {
           <h1 ref={secondText}>Digital Marketing Growth Partners ★</h1>
         </div>
       </div>
-      <ul className="flex font-semibold gap-8">
+      <ul className="md:flex hidden font-semibold gap-8">
         <li>
           <Link href="/about">About</Link>
         </li>
@@ -46,7 +49,7 @@ export default function Navbar() {
           <Link href="/team">Teams</Link>
         </li>
       </ul>
-      <Link href="/contact" className="font-semibold">
+      <Link href="/contact" className="font-semibold md:flex hidden">
         Contact
       </Link>
     </nav>

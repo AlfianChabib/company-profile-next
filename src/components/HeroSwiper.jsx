@@ -5,13 +5,11 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { images } from "../assets";
 import Image from "next/image";
 import "swiper/css";
-import "swiper/css/navigation";
-import "swiper/css/pagination";
 
 export default function HeroSwiper() {
   return (
     <Swiper
-      className="w-full mySwiper"
+      className="w-full h-full mySwiper"
       slidesPerView={1}
       modules={[Autoplay]}
       autoplay={{
@@ -21,11 +19,12 @@ export default function HeroSwiper() {
       loop
     >
       {images.map((image, i) => (
-        <SwiperSlide key={i} className="object-cover object-center">
+        <SwiperSlide key={i} className="flex w-full h-full ">
           <Image
             src={image.image}
             alt={image.alt}
-            className="w-full hero-img"
+            className="w-full hero-img object-cover object-center"
+            priority
           />
         </SwiperSlide>
       ))}

@@ -3,6 +3,7 @@ import Hero2 from "../public/images/img2.webp";
 import Hero3 from "../public/images/img3.webp";
 import Hero4 from "../public/images/img4.webp";
 import Hero5 from "../public/images/img5.webp";
+import HistoryImg from "../public/images/history.webp";
 
 const images = [
   {
@@ -32,4 +33,4 @@ const images = [
   },
 ];
 
-export { images };
+export { images, HistoryImg };

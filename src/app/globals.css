@@ -14,15 +14,6 @@
   width: 0px;
 }
 
-.sticky-cursor {
-  width: 500px;
-  height: 500px;
-  background: #6df901;
-  border-radius: 50%;
-  position: absolute;
-  /* z-index: -1; */
-}
-
 html {
   scroll-behavior: smooth;
 }
@@ -40,13 +31,7 @@ main {
 }
 
 .content {
-  background: rgb(0, 0, 0);
-  background: linear-gradient(
-    90deg,
-    rgba(0, 0, 0, 0.8) 58%,
-    rgba(0, 0, 0, 0.66) 73%,
-    rgba(255, 255, 255, 0) 100%
-  );
+  background: rgba(0, 0, 0, 0.4);
   pointer-events: none;
 }
 .content a {
@@ -64,4 +49,19 @@ label {
 input,
 textarea {
   @apply p-4 border-2 text-gray-700 rounded-md text-lg outline-none border-gray-700 mb-4;
+}
+
+.history-anim h2,
+.history-anim p {
+  transition: all 0.2s linear;
+}
+.history-anim:hover h2 {
+  transform: translateX(-10px);
+}
+.history-anim:hover p {
+  transform: translateX(10px);
+}
+
+.modal-slider {
+  transition: all 0.5s cubic-bezier(0.87, 0, 0.13, 1);
 }
