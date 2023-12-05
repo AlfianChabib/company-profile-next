@@ -24,16 +24,6 @@ const history = [
     description:
       "Dengan semakin globalnya bisnis-bisnis yang kami layani, DMGP memutuskan untuk melakukan ekspansi global pada tahun 2021. Langkah ini memungkinkan kami untuk melayani klien-klien di seluruh dunia dan mendapatkan pengalaman berharga dalam berbagai industri.",
   },
-  // {
-  //   title: "Perubahan Strategis",
-  //   description:
-  //     "Pada suatu titik, DMGP mengalami perubahan strategis yang lebih lanjut untuk meningkatkan efisiensi dan responsivitas kami terhadap perubahan pasar. Langkah ini memastikan bahwa kami tetap menjadi pemimpin di industri pemasaran digital.",
-  // },
-  // {
-  //   title: "Komitmen Terhadap Pelanggan",
-  //   description:
-  //     "Dari hari pertama hingga hari ini, komitmen kami terhadap kepuasan pelanggan tidak pernah berubah. Kami terus berupaya memberikan layanan yang melebihi harapan klien kami, membangun hubungan yang kokoh dan berkelanjutan.",
-  // },
   {
     title: "Masa Depan yang Cerah",
     description:
@@ -41,4 +31,37 @@ const history = [
   },
 ];
 
-export { history };
+const culture = [
+  {
+    title: "Digital Excellence",
+    description:
+      "Di DMGP, kami memahami bahwa era digital membutuhkan keunggulan dalam segala hal. Kami mengutamakan standar keunggulan dalam setiap aspek pekerjaan kami. Dari strategi pemasaran hingga implementasi kampanye, tim kami selalu berusaha memberikan yang terbaik, memanfaatkan teknologi terkini, dan mengadopsi praktik terbaik dalam industri.",
+  },
+  {
+    title: "Kolaborasi yang Mempertajam",
+    description:
+      "Kami percaya bahwa kekuatan terbesar kami terletak dalam kerja sama tim yang kokoh. Di DMGP, setiap individu dihargai dan kontribusi mereka diakui. Kami membangun lingkungan di mana ide-ide beragam dan perspektif berpadu untuk menciptakan solusi yang inovatif. Kolaborasi adalah kunci kesuksesan, dan kami berkomitmen untuk terus tumbuh bersama.",
+  },
+  {
+    title: "Inovasi sebagai Pondasi",
+    description:
+      "Dalam dunia yang terus berubah, kami memandang inovasi sebagai pondasi bisnis kami. Kami mendorong kreativitas dan pemikiran out-of-the-box di setiap level organisasi. Dari pengembangan produk baru hingga strategi pemasaran yang revolusioner, kami memberdayakan tim kami untuk terus menciptakan dan mengimplementasikan ide-ide yang mengubah paradigma.",
+  },
+  {
+    title: "Fleksibilitas dan Keseimbangan Kehidupan",
+    description:
+      "Di DMGP, kami menghargai keseimbangan antara pekerjaan dan kehidupan pribadi. Kami memahami bahwa karyawan yang bahagia dan seimbang memiliki produktivitas yang lebih tinggi. Oleh karena itu, kami menyediakan lingkungan kerja yang mendukung fleksibilitas, memungkinkan karyawan kami untuk mencapai keseimbangan yang optimal antara tuntutan pekerjaan dan kehidupan pribadi mereka.",
+  },
+  {
+    title: "Keterbukaan dan Komunikasi Terbuka",
+    description:
+      "Komunikasi yang terbuka adalah kunci untuk mencapai visi bersama. Kami mendorong keterbukaan dan transparansi di setiap tingkat organisasi. Baik dalam kesuksesan maupun tantangan, kami menghargai komunikasi yang jujur, menghormati pendapat setiap individu, dan bekerja sama untuk mencapai tujuan bersama.",
+  },
+  {
+    title: "Kepemimpinan yang Mendorong Pertumbuhan",
+    description:
+      "Kami memiliki tim kepemimpinan yang berkomitmen untuk mengembangkan potensi setiap anggota tim. Melalui pembinaan, pelatihan, dan umpan balik yang konstruktif, kami membantu karyawan kami untuk tumbuh secara pribadi dan profesional. Kepemimpinan di DMGP tidak hanya tentang mengarahkan, tetapi juga memberdayakan.",
+  },
+];
+
+export { history, culture };

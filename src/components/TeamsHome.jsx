@@ -15,7 +15,7 @@ export default async function TeamsHome() {
   const teams = await getTeams();
 
   return (
-    <section className="container flex flex-col w-full h-screen mt-4">
+    <section className="container flex flex-col w-full mt-4">
       <div className="flex my-2 lg:pl-20 md:pl-12 pl-8">
         <Heading text="Teams" />
       </div>
