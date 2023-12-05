@@ -3,7 +3,9 @@ import Footer from "@/components/Footer";
 import HeroSwiper from "@/components/HeroSwiper";
 import History from "@/components/History";
 import Navbar from "@/components/Navbar";
+import Service from "@/components/Service";
 import TeamsHome from "@/components/TeamsHome";
+import Testimonials from "@/components/Testimonials";
 import Link from "next/link";
 
 export default function Home() {
@@ -44,6 +46,10 @@ export default function Home() {
       <TeamsHome />
       {/* Culture */}
       <Culture />
+      {/* Service */}
+      <Service />
+      {/* Testimonials */}
+      <Testimonials />
       {/* Footer */}
       <Footer />
     </main>

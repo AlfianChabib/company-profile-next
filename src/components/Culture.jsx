@@ -3,7 +3,7 @@ import { culture } from "@/content";
 
 export default function Culture() {
   return (
-    <section className="container flex flex-col w-full mt-4">
+    <section className="container flex flex-col w-full mt-10">
       <div className="flex my-2 lg:pl-20 md:pl-12 pl-8">
         <Heading text="Culture" />
       </div>
