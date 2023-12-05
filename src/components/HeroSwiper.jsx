@@ -9,7 +9,7 @@ import "swiper/css";
 export default function HeroSwiper() {
   return (
     <Swiper
-      className="w-full h-full mySwiper"
+      className="mySwiper"
       slidesPerView={1}
       modules={[Autoplay]}
       autoplay={{
@@ -23,6 +23,8 @@ export default function HeroSwiper() {
           <Image
             src={image.image}
             alt={image.alt}
+            width={1000}
+            height={1000}
             className="w-full hero-img object-cover object-center"
             priority
           />

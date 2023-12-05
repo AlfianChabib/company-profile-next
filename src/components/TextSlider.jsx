@@ -11,7 +11,7 @@ export default function TextSlider() {
 
   useEffect(() => {
     requestAnimationFrame(animation);
-  }, []);
+  });
 
   const animation = () => {
     if (xPercent < -100) {

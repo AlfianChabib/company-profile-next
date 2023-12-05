@@ -19,9 +19,9 @@ export default function Home() {
         </div>
 
         <div className="content flex flex-col w-full h-full items-center text-center justify-center gap-2 md:gap-6 z-10 whitespace-pre-wrap text-light">
-          <h3 className="font-bold lg:text-4xl md:text-2xl text-lg">
+          <h1 className="font-bold lg:text-4xl md:text-2xl text-lg">
             Melampaui Impian Terliar Anda
-          </h3>
+          </h1>
           <h2 className="md:w-2/3 w-full font-extrabold md:text-4xl lg:text-6xl text-xl">
             Mewujudkan Apa Yang Anda Butuhkan Dengan Cepat.
           </h2>

@@ -4,7 +4,6 @@ import { useEffect, useRef } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import logo from "../../public/images/logo-black.svg";
-// import gsap from "gsap";
 import { gsap } from "gsap";
 
 export default function Navbar() {
@@ -15,7 +14,7 @@ export default function Navbar() {
 
   useEffect(() => {
     requestAnimationFrame(animation);
-  }, []);
+  });
 
   const animation = () => {
     if (xPercent < -100) {

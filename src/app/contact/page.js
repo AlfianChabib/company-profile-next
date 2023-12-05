@@ -1,4 +1,3 @@
-import Button from "@/components/Button";
 import Footer from "@/components/Footer";
 import Heading from "@/components/Heading";
 import Navbar from "@/components/Navbar";
@@ -91,14 +90,7 @@ export default function page() {
                 Require
               </span>
             </div>
-            <button type="submit">
-              <Button
-                text={"Send Message"}
-                theme="dark"
-                width="200"
-                height="60"
-              />
-            </button>
+            <button type="submit">Send Message</button>
           </form>
         </div>
       </section>

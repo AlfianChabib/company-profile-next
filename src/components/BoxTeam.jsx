@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { FaTwitter, FaGithub, FaInstagram } from "react-icons/fa";
+import Link from "next/link";
 
 export default function BoxTeam({ user }) {
   const { name, picture, location } = user;
@@ -14,27 +15,27 @@ export default function BoxTeam({ user }) {
           alt={name.first}
           width={500}
           height={500}
+          loading="lazy"
           className="w-full h-full object-cover object-center"
-          priority
         />
       </div>
       <div className="m-2">
-        <h4 className="text-lg text-gray-700 font-semibold">{fullName}</h4>
+        <h1 className="text-lg text-gray-700 font-semibold">{fullName}</h1>
         <p className="text-indigo-600">{address}</p>
         <p className="text-gray-600 mt-2">
           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quo,
           recusandae.
         </p>
         <div className="mt-3 flex gap-4 text-gray-400">
-          <a href="#">
+          <Link href="https://twitter.com/?lang=en-id" aria-label="Twitter">
             <FaTwitter size={24} />
-          </a>
-          <a href="#">
+          </Link>
+          <Link href="https://github.com/" aria-label="Github">
             <FaGithub size={24} />
-          </a>
-          <a href="#">
+          </Link>
+          <Link href="https://www.instagram.com/" aria-label="Instagram">
             <FaInstagram size={24} />
-          </a>
+          </Link>
         </div>
       </div>
     </div>

@@ -25,9 +25,9 @@ export default function Culture() {
         <div className="grid gap-4 py-8 md:grid-cols-2">
           {culture.map((item, idx) => (
             <div className="space-y-3 mt-6 px-8" key={idx}>
-              <h4 className="text-gray-800 text-xl font-semibold ">
+              <h1 className="text-gray-800 text-xl font-semibold ">
                 {item.title}
-              </h4>
+              </h1>
               <p className="text-gray-500">{item.description}</p>
             </div>
           ))}

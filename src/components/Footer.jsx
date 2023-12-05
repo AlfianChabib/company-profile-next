@@ -48,22 +48,22 @@ export default function Footer() {
         <div className="mt-6 sm:mt-0">
           <ul className="flex items-center space-x-4">
             <li className="w-10 h-10 border rounded-full flex items-center justify-center">
-              <Link href="/">
+              <Link href="/" aria-label="instagram">
                 <FaInstagram size={24} />
               </Link>
             </li>
             <li className="w-10 h-10 border rounded-full flex items-center justify-center">
-              <Link href="/">
+              <Link href="/" aria-label="youtube">
                 <FaYoutube size={24} />
               </Link>
             </li>
             <li className="w-10 h-10 border rounded-full flex items-center justify-center">
-              <Link href="/">
+              <Link href="/" aria-label="facebook">
                 <FaFacebook size={24} />
               </Link>
             </li>
             <li className="w-10 h-10 border rounded-full flex items-center justify-center">
-              <Link href="/">
+              <Link href="/" aria-label="twitter">
                 <FaTwitter size={24} />
               </Link>
             </li>
