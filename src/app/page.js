@@ -1,15 +1,12 @@
-import Button from "@/components/Button";
-// import Heading from "@/components/Heading";
 import HeroSwiper from "@/components/HeroSwiper";
 import History from "@/components/History";
 import Navbar from "@/components/Navbar";
 import TeamsHome from "@/components/TeamsHome";
-import TextSlider from "@/components/TextSlider";
 import Link from "next/link";
 
 export default function Home() {
   return (
-    <main>
+    <main className="bg-white">
       <Navbar />
       <section
         id="home"

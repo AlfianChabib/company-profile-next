@@ -62,6 +62,20 @@ textarea {
   transform: translateX(10px);
 }
 
+.history-anim2 h2,
+.history-anim2 div {
+  transition: all 0.2s linear;
+}
+.history-anim2:hover h2 {
+  transform: translateX(10px);
+}
+.history-anim2:hover div {
+  transform: translateX(-10px);
+}
+
 .modal-slider {
   transition: all 0.5s cubic-bezier(0.87, 0, 0.13, 1);
+}
+.ReactCollapse--collapse {
+  transition: height 500ms;
 }

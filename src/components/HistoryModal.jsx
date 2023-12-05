@@ -23,7 +23,7 @@ export default function HistoryModal({ modal, history }) {
       variants={scaleAnimation}
       initial={"initial"}
       animate={active ? "open" : "closed"}
-      className="modal flex h-[350px] w-[400px] bg-ultraDark text-white absolute overflow-hidden pointer-events-none"
+      className="modal hidden  md:flex h-[350px] w-[400px] bg-ultraDark text-white absolute overflow-hidden pointer-events-none"
     >
       <div
         style={{ top: index * -100 + "%" }}
