@@ -4,16 +4,6 @@
 @tailwind components;
 @tailwind utilities;
 
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-}
-
-::-webkit-scrollbar {
-  width: 0px;
-}
-
 html {
   scroll-behavior: smooth;
 }
@@ -40,15 +30,6 @@ main {
 
 .text-slider {
   height: calc(100vh - calc(100vh - theme(height.nav)));
-}
-
-label {
-  @apply font-semibold text-lg;
-}
-
-input,
-textarea {
-  @apply p-4 border-2 text-gray-700 rounded-md text-lg outline-none border-gray-700 mb-4;
 }
 
 .history-anim h2,
