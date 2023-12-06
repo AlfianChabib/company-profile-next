@@ -15,7 +15,6 @@ export default function page() {
       <History />
       <TeamsHome />
       <Culture />
-      <section className="flex relative w-full p-20 px-20 gap-10 justify-center mt-10"></section>
       <Footer />
     </main>
   );

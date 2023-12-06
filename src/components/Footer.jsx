@@ -17,10 +17,6 @@ export default function Footer() {
       href: "/team",
       name: "Teams",
     },
-    {
-      href: "/contact",
-      name: "Contact",
-    },
   ];
   return (
     <footer className="text-gray-500 bg-white px-4 py-5 max-w-screen-xl mx-auto md:px-8 mt-8">
@@ -73,5 +69,3 @@ export default function Footer() {
     </footer>
   );
 }
-
-// https://quivo.co/uk/

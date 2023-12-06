@@ -52,8 +52,3 @@ export default function Service() {
     </section>
   );
 }
-
-// Mengapa Memilih Layanan Kami?
-// Pendekatan Kustomisasi: Setiap strategi dirancang sesuai dengan kebutuhan unik bisnis Anda.
-// Tim Ahli: Profesional pemasaran digital berpengalaman dengan dedikasi untuk kesuksesan klien.
-// Transparansi dan Pelaporan: Kami menyediakan laporan reguler dan transparansi dalam setiap langkah kampanye.
