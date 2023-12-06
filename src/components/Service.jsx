@@ -1,4 +1,3 @@
-import Link from "next/link";
 import { service } from "@/content";
 import Heading from "./Heading";
 import Image from "next/image";
@@ -33,17 +32,10 @@ export default function Service() {
                     height={60}
                   />
                 </div>
-                <h4 className="text-lg text-gray-800 font-semibold">
+                <h1 className="text-lg text-gray-800 font-semibold">
                   {item.title}
-                </h4>
+                </h1>
                 <p>{item.description}</p>
-                <Link
-                  href={"/service"}
-                  className="text-indigo-600 font-medium w-36 mt-4 self-center"
-                  aria-label="learn more"
-                >
-                  learn more
-                </Link>
               </li>
             ))}
           </ul>
