@@ -38,11 +38,11 @@ export default function Service() {
                 </h4>
                 <p>{item.description}</p>
                 <Link
-                  href="/service"
+                  href={"/service"}
                   className="text-indigo-600 font-medium w-36 mt-4 self-center"
-                  aria-label="Learn more"
+                  aria-label="learn more"
                 >
-                  Learn More
+                  learn more
                 </Link>
               </li>
             ))}
